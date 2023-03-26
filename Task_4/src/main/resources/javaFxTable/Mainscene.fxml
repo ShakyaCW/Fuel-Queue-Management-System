@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="543.0" prefWidth="824.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaFxTable.MainsceneController">
+   <BorderPane fx:id="mainPane" layoutX="22.0" layoutY="25.0" prefHeight="490.0" prefWidth="790.0">
+      <left>
+         <VBox prefHeight="464.0" prefWidth="172.0" BorderPane.alignment="CENTER">
+            <Button mnemonicParsing="false" onAction="#handleBtn1" prefHeight="85.0" prefWidth="172.0" text="Queue 1">
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#handleBtn2" prefHeight="85.0" prefWidth="172.0" text="Queue 2">
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#handleBtn3" prefHeight="85.0" prefWidth="172.0" text="Queue 3">
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#handleBtn4" prefHeight="85.0" prefWidth="172.0" text="Queue 4">
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#handleBtn5" prefHeight="85.0" prefWidth="172.0" text="Queue 5">
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#handleBtn6" prefHeight="85.0" prefWidth="172.0" text="Waiting Queue">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Button>
+         </VBox>
+      </left>
+   </BorderPane>
+</AnchorPane>
